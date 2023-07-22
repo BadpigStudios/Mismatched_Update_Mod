@@ -17,6 +17,7 @@ public class MismatchedUpdateModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MismatchedUpdateModBlocks.LIFE_FLOWER.get().asItem());
+			tabData.accept(MismatchedUpdateModBlocks.LIFEFLOWERLITTLE.get().asItem());
 		}
 	}
 }

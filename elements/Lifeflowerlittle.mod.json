@@ -3,11 +3,11 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "life_flower",
+    "texture": "life_mid_flower",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "life_flower",
-    "particleTexture": "life_flower",
+    "particleTexture": "life_mid_flower",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
@@ -31,7 +31,10 @@
       }
     ],
     "name": "Life Flower",
-    "specialInfo": [],
+    "specialInfo": [
+      "Only grow naturaly",
+      "bone meal don´t work"
+    ],
     "creativeTab": {
       "value": "DECORATIONS"
     },
@@ -61,35 +64,32 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:LifeFlower"
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "forceTicking": true,
     "emissiveRendering": true,
     "hasTileEntity": false,
     "isReplaceable": false,
-    "colorOnMap": "MAGENTA",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
     "flammability": 100,
-    "fireSpreadSpeed": 46,
+    "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "isBonemealable": true,
-    "onBonemealSuccess": {
-      "name": "LifeFlowerOnBoneMealSuccess"
-    },
+    "isBonemealable": false,
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "patchSize": 64,
     "generateAtAnyHeight": false,
-    "onEntityCollides": {
-      "name": "LifeFlowerMobplayerCollidesWithPlant"
+    "onTickUpdate": {
+      "name": "LifeFlowerUpdateTick"
     }
   }
 }
