@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.mismatchedupdate.init.MismatchedUpdateModItems;
+import net.mcreator.mismatchedupdate.init.MismatchedUpdateModFeatures;
+import net.mcreator.mismatchedupdate.init.MismatchedUpdateModEntities;
 import net.mcreator.mismatchedupdate.init.MismatchedUpdateModBlocks;
 
 import java.util.function.Supplier;
@@ -52,6 +54,9 @@ public class MismatchedUpdateMod {
 
 		MismatchedUpdateModBlocks.REGISTRY.register(bus);
 		MismatchedUpdateModItems.REGISTRY.register(bus);
+		MismatchedUpdateModEntities.REGISTRY.register(bus);
+
+		MismatchedUpdateModFeatures.REGISTRY.register(bus);
 
 	}
 

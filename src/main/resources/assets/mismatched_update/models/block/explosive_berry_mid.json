@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "mismatched_update:block/explosive_mid_berry",
+    "particle": "mismatched_update:block/explosive_mid_berry"
+  },
+  "render_type": "cutout"
+}

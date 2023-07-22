@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Barra De Desarrollo",
+    "icon": {
+      "value": "Blocks.BEDROCK"
+    },
+    "showSearch": false
+  }
+}

@@ -12,10 +12,14 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.mismatchedupdate.block.LifeflowerlittleBlock;
 import net.mcreator.mismatchedupdate.block.LifeFlowerBlock;
+import net.mcreator.mismatchedupdate.block.ExplosiveBerryMidBlock;
+import net.mcreator.mismatchedupdate.block.ExplosiveBerryBlock;
 import net.mcreator.mismatchedupdate.MismatchedUpdateMod;
 
 public class MismatchedUpdateModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MismatchedUpdateMod.MODID);
 	public static final RegistryObject<Block> LIFE_FLOWER = REGISTRY.register("life_flower", () -> new LifeFlowerBlock());
 	public static final RegistryObject<Block> LIFEFLOWERLITTLE = REGISTRY.register("lifeflowerlittle", () -> new LifeflowerlittleBlock());
+	public static final RegistryObject<Block> EXPLOSIVE_BERRY = REGISTRY.register("explosive_berry", () -> new ExplosiveBerryBlock());
+	public static final RegistryObject<Block> EXPLOSIVE_BERRY_MID = REGISTRY.register("explosive_berry_mid", () -> new ExplosiveBerryMidBlock());
 }

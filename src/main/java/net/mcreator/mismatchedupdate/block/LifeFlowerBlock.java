@@ -30,13 +30,13 @@ import java.util.Collections;
 
 public class LifeFlowerBlock extends FlowerBlock implements BonemealableBlock {
 	public LifeFlowerBlock() {
-		super(() -> MobEffects.HEAL, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_MAGENTA).randomTicks().sound(SoundType.GRASS).strength(0.2f, 0f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
+		super(() -> MobEffects.HEAL, 1100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_MAGENTA).randomTicks().sound(SoundType.GRASS).strength(0.2f, 0f).hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
 				.lightLevel(s -> 3).noCollission());
 	}
 
 	@Override
 	public int getEffectDuration() {
-		return 100;
+		return 1100;
 	}
 
 	@Override

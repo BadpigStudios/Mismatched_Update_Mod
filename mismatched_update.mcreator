@@ -117,6 +117,223 @@
         ]
       },
       "path": "~/Flores/Funciones"
+    },
+    {
+      "name": "ExplosiveBerry",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_berry",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mismatched_update/forge/biome_modifier/explosive_berry_biome_modifier.json",
+          "src/main/resources/assets/mismatched_update/models/item/explosive_berry.json",
+          "src/main/resources/data/mismatched_update/worldgen/placed_feature/explosive_berry.json",
+          "src/main/resources/data/mismatched_update/worldgen/configured_feature/explosive_berry.json",
+          "src/main/java/net/mcreator/mismatchedupdate/world/features/plants/ExplosiveBerryFeature.java",
+          "src/main/java/net/mcreator/mismatchedupdate/block/ExplosiveBerryBlock.java",
+          "src/main/resources/assets/mismatched_update/models/block/explosive_berry.json",
+          "src/main/resources/assets/mismatched_update/blockstates/explosive_berry.json"
+        ]
+      },
+      "path": "~/Flores"
+    },
+    {
+      "name": "BarraDeDesarrollo",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "barra_de_desarrollo",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/desarrollo"
+    },
+    {
+      "name": "ExplosiveBerryPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_berry_plant_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/procedures/ExplosiveBerryPlantDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Flores/Funciones"
+    },
+    {
+      "name": "ExplosiveBerryMid",
+      "type": "plant",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_berry_mid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/block/ExplosiveBerryMidBlock.java",
+          "src/main/resources/assets/mismatched_update/models/item/explosive_berry_mid.json",
+          "src/main/resources/data/mismatched_update/worldgen/configured_feature/explosive_berry_mid.json",
+          "src/main/resources/assets/mismatched_update/models/block/explosive_berry_mid.json",
+          "src/main/java/net/mcreator/mismatchedupdate/world/features/plants/ExplosiveBerryMidFeature.java",
+          "src/main/resources/data/mismatched_update/forge/biome_modifier/explosive_berry_mid_biome_modifier.json",
+          "src/main/resources/data/mismatched_update/worldgen/placed_feature/explosive_berry_mid.json",
+          "src/main/resources/assets/mismatched_update/blockstates/explosive_berry_mid.json"
+        ]
+      },
+      "path": "~/Flores"
+    },
+    {
+      "name": "ExplosiveBerryMidUpdateTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_berry_mid_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/procedures/ExplosiveBerryMidUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Flores/Funciones"
+    },
+    {
+      "name": "EBIP",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebip",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mismatched_update/models/item/ebip.json",
+          "src/main/java/net/mcreator/mismatchedupdate/item/EBIPItem.java"
+        ]
+      },
+      "path": "~/objetos - items"
+    },
+    {
+      "name": "ExplosiveBerryProjectil",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_berry_projectil",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/entity/ExplosiveBerryProjectilEntity.java",
+          "src/main/resources/assets/mismatched_update/models/item/explosive_berry_projectil.json",
+          "src/main/java/net/mcreator/mismatchedupdate/item/ExplosiveBerryProjectilItem.java"
+        ]
+      },
+      "path": "~/objetos - items"
+    },
+    {
+      "name": "ExplosiveBerryProjectilProjectileHits",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_berry_projectil_projectile_hits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/procedures/ExplosiveBerryProjectilProjectileHitsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/objetos - items/funcionamiento"
+    },
+    {
+      "name": "ExplosiveBerryProjectilProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_berry_projectil_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/procedures/ExplosiveBerryProjectilProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/objetos - items/funcionamiento"
     }
   ],
   "variable_elements": [],
@@ -124,11 +341,21 @@
   "language_map": {
     "en_us": {
       "block.mismatched_update.life_flower": "Life Flower",
-      "block.mismatched_update.lifeflowerlittle": "Life Flower"
+      "item.mismatched_update.ebip": "EBIP",
+      "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
+      "block.mismatched_update.lifeflowerlittle": "Life Flower",
+      "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
+      "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
+      "block.mismatched_update.explosive_berry": "Explosive Berry"
     },
     "es_mx": {
       "block.mismatched_update.life_flower": "Life Flower",
-      "block.mismatched_update.lifeflowerlittle": "Life Flower"
+      "item.mismatched_update.ebip": "EBIP",
+      "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
+      "block.mismatched_update.lifeflowerlittle": "Life Flower",
+      "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
+      "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
+      "block.mismatched_update.explosive_berry": "Explosive Berry"
     }
   },
   "foldersRoot": {
@@ -139,6 +366,19 @@
         "children": [
           {
             "name": "Funciones",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "desarrollo",
+        "children": []
+      },
+      {
+        "name": "objetos - items",
+        "children": [
+          {
+            "name": "funcionamiento",
             "children": []
           }
         ]

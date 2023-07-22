@@ -3,17 +3,17 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "life_flower",
+    "texture": "explosive_berry",
     "textureBottom": "",
     "customModelName": "Cross model",
-    "itemTexture": "life_flower",
-    "particleTexture": "life_flower",
+    "itemTexture": "explosive_berry",
+    "particleTexture": "explosive_berry",
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
     "staticPlantGenerationType": "Flower",
-    "suspiciousStewEffect": "INSTANT_HEALTH",
-    "suspiciousStewDuration": 1100,
+    "suspiciousStewEffect": "INSTANT_DAMAGE",
+    "suspiciousStewDuration": 1,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
     "doublePlantGenerationType": "Flower",
@@ -30,14 +30,16 @@
         "subtract": false
       }
     ],
-    "name": "Life Flower",
-    "specialInfo": [],
+    "name": "Explosive Berry",
+    "specialInfo": [
+      "it explodes without caution"
+    ],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:BarraDeDesarrollo"
     },
-    "hardness": 0.2,
+    "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 3,
+    "luminance": 0,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
@@ -63,33 +65,32 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
-    "forceTicking": true,
-    "emissiveRendering": true,
+    "dropAmount": 0,
+    "forceTicking": false,
+    "emissiveRendering": false,
     "hasTileEntity": false,
     "isReplaceable": false,
-    "colorOnMap": "MAGENTA",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
     "flammability": 100,
-    "fireSpreadSpeed": 46,
+    "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "isBonemealable": true,
-    "onBonemealSuccess": {
-      "name": "LifeFlowerOnBoneMealSuccess"
-    },
+    "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "patchSize": 64,
     "generateAtAnyHeight": false,
-    "onEntityCollides": {
-      "name": "LifeFlowerMobplayerCollidesWithPlant"
+    "onDestroyedByPlayer": {
+      "name": "ExplosiveBerryPlantDestroyedByPlayer"
     }
   }
 }

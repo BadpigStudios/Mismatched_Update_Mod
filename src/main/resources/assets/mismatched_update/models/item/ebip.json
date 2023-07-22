@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mismatched_update:item/explosive_berry_projectil"
+  }
+}
