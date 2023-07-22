@@ -35,6 +35,8 @@ public class MismatchedUpdateModTabs {
 				builder -> builder.title(Component.translatable("item_group.mismatched_update.barra_de_desarrollo")).icon(() -> new ItemStack(Blocks.BEDROCK)).displayItems((parameters, tabData) -> {
 					tabData.accept(MismatchedUpdateModItems.EBIP.get());
 					tabData.accept(MismatchedUpdateModBlocks.BREAKABLE_POT.get().asItem());
+					tabData.accept(MismatchedUpdateModBlocks.SLIME_PLANT.get().asItem());
+					tabData.accept(MismatchedUpdateModBlocks.SLIMEMIDPLANT.get().asItem());
 				})
 
 		);
