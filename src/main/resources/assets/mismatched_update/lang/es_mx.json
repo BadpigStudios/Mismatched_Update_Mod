@@ -1,12 +1,12 @@
 {
-  "block.mismatched_update.breakable_pot": "Piedra rompible",
+  "block.mismatched_update.life_flower": "Flor de vida",
+  "item.mismatched_update.ebip": "",
   "block.mismatched_update.explosive_berry_mid": "Arbusto explosivo pequeño",
+  "block.mismatched_update.breakable_pot": "Piedra rompible",
+  "block.mismatched_update.slime_plant": "Slime Plant",
   "block.mismatched_update.lifeflowerlittle": "Flor de vida pequeña",
   "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
   "block.mismatched_update.slimemidplant": "Slimemidplant",
   "item.mismatched_update.explosive_berry_projectil": "Baya explosiva lanzable",
-  "block.mismatched_update.explosive_berry": "Baya explosiva",
-  "block.mismatched_update.life_flower": "Flor de vida",
-  "item.mismatched_update.ebip": "",
-  "block.mismatched_update.slime_plant": "Slime Plant"
+  "block.mismatched_update.explosive_berry": "Baya explosiva"
 }

@@ -385,39 +385,18 @@
       "path": "~/decoracion/funciones"
     },
     {
-      "name": "DisplayEntity",
-      "type": "procedure",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "display_entity",
-      "metadata": {
-        "return_type": "entity",
-        "files": [
-          "src/main/java/net/mcreator/mismatchedupdate/procedures/DisplayEntityProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/desarrollo"
-    },
-    {
-      "name": "SlimePlant",
+      "name": "Slimemidplant",
       "type": "plant",
-      "sortid": 20,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "slime_plant",
+      "registry_name": "slimemidplant",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/mismatchedupdate/block/SlimePlantBlock.java",
-          "src/main/resources/assets/mismatched_update/blockstates/slime_plant.json",
-          "src/main/resources/assets/mismatched_update/models/block/slime_plant.json",
-          "src/main/resources/assets/mismatched_update/models/item/slime_plant.json"
+          "src/main/resources/assets/mismatched_update/blockstates/slimemidplant.json",
+          "src/main/resources/assets/mismatched_update/models/block/slimemidplant.json",
+          "src/main/resources/assets/mismatched_update/models/item/slimemidplant.json",
+          "src/main/java/net/mcreator/mismatchedupdate/block/SlimemidplantBlock.java"
         ]
       },
       "path": "~/Flores"
@@ -455,21 +434,42 @@
       "path": "~/Flores/Funciones"
     },
     {
-      "name": "Slimemidplant",
+      "name": "SlimePlant",
       "type": "plant",
-      "sortid": 22,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "slimemidplant",
+      "registry_name": "slime_plant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/mismatched_update/blockstates/slimemidplant.json",
-          "src/main/resources/assets/mismatched_update/models/block/slimemidplant.json",
-          "src/main/resources/assets/mismatched_update/models/item/slimemidplant.json",
-          "src/main/java/net/mcreator/mismatchedupdate/block/SlimemidplantBlock.java"
+          "src/main/java/net/mcreator/mismatchedupdate/block/SlimePlantBlock.java",
+          "src/main/resources/assets/mismatched_update/blockstates/slime_plant.json",
+          "src/main/resources/assets/mismatched_update/models/block/slime_plant.json",
+          "src/main/resources/assets/mismatched_update/models/item/slime_plant.json"
         ]
       },
       "path": "~/Flores"
+    },
+    {
+      "name": "DisplayEntity",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_entity",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/procedures/DisplayEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/desarrollo"
     },
     {
       "name": "SlimemidplantUpdateTick",
@@ -508,38 +508,36 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.mismatched_update.breakable_pot": "Breakable Pot",
-      "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
-      "block.mismatched_update.lifeflowerlittle": "Life Flower",
-      "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
-      "block.mismatched_update.slimemidplant": "Slimemidplant",
-      "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
-      "block.mismatched_update.explosive_berry": "Explosive Berry",
       "block.mismatched_update.life_flower": "Life Flower",
       "item.mismatched_update.ebip": "EBIP",
-      "block.mismatched_update.slime_plant": "Slime Plant"
+      "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
+      "block.mismatched_update.breakable_pot": "Breakable Pot",
+      "block.mismatched_update.lifeflowerlittle": "Life Flower",
+      "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
+      "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
+      "block.mismatched_update.explosive_berry": "Explosive Berry"
     },
     "es_mx": {
-      "block.mismatched_update.breakable_pot": "Piedra rompible",
+      "block.mismatched_update.life_flower": "Flor de vida",
+      "item.mismatched_update.ebip": "",
       "block.mismatched_update.explosive_berry_mid": "Arbusto explosivo pequeño",
+      "block.mismatched_update.breakable_pot": "Piedra rompible",
+      "block.mismatched_update.slime_plant": "Slime Plant",
       "block.mismatched_update.lifeflowerlittle": "Flor de vida pequeña",
       "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
       "block.mismatched_update.slimemidplant": "Slimemidplant",
       "item.mismatched_update.explosive_berry_projectil": "Baya explosiva lanzable",
-      "block.mismatched_update.explosive_berry": "Baya explosiva",
-      "block.mismatched_update.life_flower": "Flor de vida",
-      "item.mismatched_update.ebip": "",
-      "block.mismatched_update.slime_plant": "Slime Plant"
+      "block.mismatched_update.explosive_berry": "Baya explosiva"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "Flores",
+        "name": "decoracion",
         "children": [
           {
-            "name": "Funciones",
+            "name": "funciones",
             "children": []
           }
         ]
@@ -558,10 +556,10 @@
         ]
       },
       {
-        "name": "decoracion",
+        "name": "Flores",
         "children": [
           {
-            "name": "funciones",
+            "name": "Funciones",
             "children": []
           }
         ]
