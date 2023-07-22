@@ -19,6 +19,17 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
+            "Name": "minecraft:fern"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
             "Name": "minecraft:dandelion"
           }
         },
@@ -236,6 +247,28 @@
             "Properties": {
               "half": "lower"
             }
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:brown_mushroom"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:red_mushroom"
           }
         },
         "state": {
