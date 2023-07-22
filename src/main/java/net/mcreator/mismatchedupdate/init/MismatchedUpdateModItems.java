@@ -24,6 +24,7 @@ public class MismatchedUpdateModItems {
 	public static final RegistryObject<Item> EXPLOSIVE_BERRY_MID = block(MismatchedUpdateModBlocks.EXPLOSIVE_BERRY_MID);
 	public static final RegistryObject<Item> EBIP = REGISTRY.register("ebip", () -> new EBIPItem());
 	public static final RegistryObject<Item> EXPLOSIVE_BERRY_PROJECTIL = REGISTRY.register("explosive_berry_projectil", () -> new ExplosiveBerryProjectilItem());
+	public static final RegistryObject<Item> BREAKABLE_POT = block(MismatchedUpdateModBlocks.BREAKABLE_POT);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

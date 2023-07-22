@@ -1,0 +1,247 @@
+{
+  "type": "mismatched_update:breakable_pot",
+  "config": {
+    "size": 3,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:grass"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:dandelion"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:poppy"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:blue_orchid"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:allium"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:azure_bluet"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:red_tulip"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:orange_tulip"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:white_tulip"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:pink_tulip"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:oxeye_daisy"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:cornflower"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:lily_of_the_valley"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:wither_rose"
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:sunflower",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:lilac",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:tall_grass",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:large_fern",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:rose_bush",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "minecraft:peony",
+            "Properties": {
+              "half": "lower"
+            }
+          }
+        },
+        "state": {
+          "Name": "mismatched_update:breakable_pot"
+        }
+      }
+    ]
+  }
+}

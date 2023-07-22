@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mismatched_update:block/breakable_pot"
+    },
+    "facing=east": {
+      "model": "mismatched_update:block/breakable_pot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mismatched_update:block/breakable_pot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mismatched_update:block/breakable_pot",
+      "y": 270
+    }
+  }
+}

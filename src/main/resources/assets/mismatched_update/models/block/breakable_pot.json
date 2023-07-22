@@ -1,0 +1,9 @@
+{
+  "parent": "mismatched_update:custom/breakable_pot",
+  "textures": {
+    "all": "mismatched_update:block/stone",
+    "particle": "mismatched_update:block/stone",
+    "1": "mismatched_update:block/stone"
+  },
+  "render_type": "solid"
+}

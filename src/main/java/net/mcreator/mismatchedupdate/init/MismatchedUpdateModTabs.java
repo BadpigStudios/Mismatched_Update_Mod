@@ -35,6 +35,7 @@ public class MismatchedUpdateModTabs {
 					tabData.accept(MismatchedUpdateModBlocks.EXPLOSIVE_BERRY.get().asItem());
 					tabData.accept(MismatchedUpdateModBlocks.EXPLOSIVE_BERRY_MID.get().asItem());
 					tabData.accept(MismatchedUpdateModItems.EBIP.get());
+					tabData.accept(MismatchedUpdateModBlocks.BREAKABLE_POT.get().asItem());
 				})
 
 		);

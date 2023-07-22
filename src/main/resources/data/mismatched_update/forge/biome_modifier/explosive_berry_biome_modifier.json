@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "mismatched_update:explosive_berry",
-  "step": "vegetal_decoration"
-}

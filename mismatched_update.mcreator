@@ -127,11 +127,7 @@
       "registry_name": "explosive_berry",
       "metadata": {
         "files": [
-          "src/main/resources/data/mismatched_update/forge/biome_modifier/explosive_berry_biome_modifier.json",
           "src/main/resources/assets/mismatched_update/models/item/explosive_berry.json",
-          "src/main/resources/data/mismatched_update/worldgen/placed_feature/explosive_berry.json",
-          "src/main/resources/data/mismatched_update/worldgen/configured_feature/explosive_berry.json",
-          "src/main/java/net/mcreator/mismatchedupdate/world/features/plants/ExplosiveBerryFeature.java",
           "src/main/java/net/mcreator/mismatchedupdate/block/ExplosiveBerryBlock.java",
           "src/main/resources/assets/mismatched_update/models/block/explosive_berry.json",
           "src/main/resources/assets/mismatched_update/blockstates/explosive_berry.json"
@@ -194,11 +190,7 @@
         "files": [
           "src/main/java/net/mcreator/mismatchedupdate/block/ExplosiveBerryMidBlock.java",
           "src/main/resources/assets/mismatched_update/models/item/explosive_berry_mid.json",
-          "src/main/resources/data/mismatched_update/worldgen/configured_feature/explosive_berry_mid.json",
           "src/main/resources/assets/mismatched_update/models/block/explosive_berry_mid.json",
-          "src/main/java/net/mcreator/mismatchedupdate/world/features/plants/ExplosiveBerryMidFeature.java",
-          "src/main/resources/data/mismatched_update/forge/biome_modifier/explosive_berry_mid_biome_modifier.json",
-          "src/main/resources/data/mismatched_update/worldgen/placed_feature/explosive_berry_mid.json",
           "src/main/resources/assets/mismatched_update/blockstates/explosive_berry_mid.json"
         ]
       },
@@ -334,6 +326,63 @@
         ]
       },
       "path": "~/objetos - items/funcionamiento"
+    },
+    {
+      "name": "BreakablePot",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breakable_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mismatched_update/worldgen/configured_feature/breakable_pot.json",
+          "src/main/resources/data/mismatched_update/worldgen/placed_feature/breakable_pot.json",
+          "src/main/java/net/mcreator/mismatchedupdate/block/BreakablePotBlock.java",
+          "src/main/resources/assets/mismatched_update/blockstates/breakable_pot.json",
+          "src/main/resources/data/mismatched_update/forge/biome_modifier/breakable_pot_biome_modifier.json",
+          "src/main/resources/assets/mismatched_update/models/block/breakable_pot.json",
+          "src/main/java/net/mcreator/mismatchedupdate/world/features/ores/BreakablePotFeature.java",
+          "src/main/resources/assets/mismatched_update/models/item/breakable_pot.json"
+        ]
+      },
+      "path": "~/decoracion"
+    },
+    {
+      "name": "BreakablePotBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breakable_pot_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mismatchedupdate/procedures/BreakablePotBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/decoracion"
     }
   ],
   "variable_elements": [],
@@ -343,6 +392,7 @@
       "block.mismatched_update.life_flower": "Life Flower",
       "item.mismatched_update.ebip": "EBIP",
       "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
+      "block.mismatched_update.breakable_pot": "Breakable Pot",
       "block.mismatched_update.lifeflowerlittle": "Life Flower",
       "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
       "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
@@ -352,6 +402,7 @@
       "block.mismatched_update.life_flower": "Life Flower",
       "item.mismatched_update.ebip": "EBIP",
       "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
+      "block.mismatched_update.breakable_pot": "Breakable Pot",
       "block.mismatched_update.lifeflowerlittle": "Life Flower",
       "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
       "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
@@ -382,6 +433,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "decoracion",
+        "children": []
       }
     ]
   },
