@@ -25,6 +25,7 @@ public class MismatchedUpdateModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MismatchedUpdateModBlocks.LIFE_FLOWER.get().asItem());
+			tabData.accept(MismatchedUpdateModBlocks.EXPLOSIVE_BERRY.get().asItem());
 		}
 	}
 
@@ -32,8 +33,6 @@ public class MismatchedUpdateModTabs {
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
 		event.registerCreativeModeTab(new ResourceLocation("mismatched_update", "barra_de_desarrollo"),
 				builder -> builder.title(Component.translatable("item_group.mismatched_update.barra_de_desarrollo")).icon(() -> new ItemStack(Blocks.BEDROCK)).displayItems((parameters, tabData) -> {
-					tabData.accept(MismatchedUpdateModBlocks.EXPLOSIVE_BERRY.get().asItem());
-					tabData.accept(MismatchedUpdateModBlocks.EXPLOSIVE_BERRY_MID.get().asItem());
 					tabData.accept(MismatchedUpdateModItems.EBIP.get());
 					tabData.accept(MismatchedUpdateModBlocks.BREAKABLE_POT.get().asItem());
 				})
