@@ -233,7 +233,7 @@
       "type": "item",
       "sortid": 11,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "ebip",
       "metadata": {
         "files": [
@@ -382,7 +382,7 @@
           }
         ]
       },
-      "path": "~/decoracion"
+      "path": "~/decoracion/funciones"
     }
   ],
   "variable_elements": [],
@@ -394,19 +394,19 @@
       "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
       "block.mismatched_update.breakable_pot": "Breakable Pot",
       "block.mismatched_update.lifeflowerlittle": "Life Flower",
-      "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
+      "item_group.mismatched_update.barra_de_desarrollo": "Develop tab",
       "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
       "block.mismatched_update.explosive_berry": "Explosive Berry"
     },
     "es_mx": {
-      "block.mismatched_update.life_flower": "Life Flower",
-      "item.mismatched_update.ebip": "EBIP",
-      "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
-      "block.mismatched_update.breakable_pot": "Breakable Pot",
-      "block.mismatched_update.lifeflowerlittle": "Life Flower",
+      "block.mismatched_update.life_flower": "Flor de vida",
+      "item.mismatched_update.ebip": "(\u0026$/#%)",
+      "block.mismatched_update.explosive_berry_mid": "Arbusto explosivo pequeño",
+      "block.mismatched_update.breakable_pot": "Piedra rompible",
+      "block.mismatched_update.lifeflowerlittle": "Flor de vida pequeña",
       "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
-      "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
-      "block.mismatched_update.explosive_berry": "Explosive Berry"
+      "item.mismatched_update.explosive_berry_projectil": "Baya explosiva lanzable",
+      "block.mismatched_update.explosive_berry": "Baya explosiva"
     }
   },
   "foldersRoot": {
@@ -436,7 +436,12 @@
       },
       {
         "name": "decoracion",
-        "children": []
+        "children": [
+          {
+            "name": "funciones",
+            "children": []
+          }
+        ]
       }
     ]
   },
