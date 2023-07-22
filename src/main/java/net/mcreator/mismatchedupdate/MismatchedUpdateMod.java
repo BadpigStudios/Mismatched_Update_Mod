@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mismatchedupdate.init.MismatchedUpdateModItems;
+import net.mcreator.mismatchedupdate.init.MismatchedUpdateModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,9 @@ public class MismatchedUpdateMod {
 	public MismatchedUpdateMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MismatchedUpdateModBlocks.REGISTRY.register(bus);
+		MismatchedUpdateModItems.REGISTRY.register(bus);
 
 	}
 
