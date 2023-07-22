@@ -13,6 +13,8 @@
  */
 package net.mcreator.mismatchedupdate;
 
+import software.bernie.geckolib.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -58,6 +60,7 @@ public class MismatchedUpdateMod {
 
 		MismatchedUpdateModFeatures.REGISTRY.register(bus);
 
+		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
