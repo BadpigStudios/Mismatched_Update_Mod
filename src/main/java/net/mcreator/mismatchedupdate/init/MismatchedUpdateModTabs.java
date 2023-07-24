@@ -27,6 +27,10 @@ public class MismatchedUpdateModTabs {
 			tabData.accept(MismatchedUpdateModBlocks.LIFE_FLOWER.get().asItem());
 			tabData.accept(MismatchedUpdateModBlocks.EXPLOSIVE_BERRY.get().asItem());
 		}
+
+		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MismatchedUpdateModItems.ANCIENT_PLACE.get());
+		}
 	}
 
 	@SubscribeEvent

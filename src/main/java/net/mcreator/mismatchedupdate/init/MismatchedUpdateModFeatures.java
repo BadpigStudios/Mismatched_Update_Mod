@@ -12,10 +12,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.level.levelgen.feature.Feature;
 
 import net.mcreator.mismatchedupdate.world.features.ores.BreakablePotFeature;
+import net.mcreator.mismatchedupdate.world.features.SlimeplantspotFeature;
 import net.mcreator.mismatchedupdate.MismatchedUpdateMod;
 
 @Mod.EventBusSubscriber
 public class MismatchedUpdateModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, MismatchedUpdateMod.MODID);
 	public static final RegistryObject<Feature<?>> BREAKABLE_POT = REGISTRY.register("breakable_pot", BreakablePotFeature::new);
+	public static final RegistryObject<Feature<?>> SLIMEPLANTSPOT = REGISTRY.register("slimeplantspot", SlimeplantspotFeature::new);
 }

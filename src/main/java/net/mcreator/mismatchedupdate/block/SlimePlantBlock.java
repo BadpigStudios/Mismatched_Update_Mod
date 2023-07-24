@@ -1,13 +1,33 @@
 
 package net.mcreator.mismatchedupdate.block;
 
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.BonemealableBlock;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.mismatchedupdate.procedures.SlimePlantOnBoneMealSuccessProcedure;
+
+import java.util.List;
+import java.util.Collections;
 
 public class SlimePlantBlock extends FlowerBlock implements BonemealableBlock {
 	public SlimePlantBlock() {
-		super(() -> MobEffects.ABSORPTION, 90, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.SLIME_BLOCK).strength(0.5f, 0f).speedFactor(0.9f).jumpFactor(0.9f).noCollission());
+		super(() -> MobEffects.ABSORPTION, 90, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.SLIME_BLOCK).strength(0.5f, 0f).speedFactor(0.9f).jumpFactor(0.9f).lightLevel(s -> 2).noCollission());
 	}
 
 	@Override

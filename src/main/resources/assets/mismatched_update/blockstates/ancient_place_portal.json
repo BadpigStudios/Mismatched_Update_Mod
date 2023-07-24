@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "mismatched_update:block/ancient_place_portal_ew"
+    },
+    "axis=x": {
+      "model": "mismatched_update:block/ancient_place_portal_ns"
+    }
+  }
+}

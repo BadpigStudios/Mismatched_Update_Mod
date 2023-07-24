@@ -17,6 +17,7 @@ import net.mcreator.mismatchedupdate.block.LifeFlowerBlock;
 import net.mcreator.mismatchedupdate.block.ExplosiveBerryMidBlock;
 import net.mcreator.mismatchedupdate.block.ExplosiveBerryBlock;
 import net.mcreator.mismatchedupdate.block.BreakablePotBlock;
+import net.mcreator.mismatchedupdate.block.AncientPlacePortalBlock;
 import net.mcreator.mismatchedupdate.MismatchedUpdateMod;
 
 public class MismatchedUpdateModBlocks {
@@ -28,4 +29,5 @@ public class MismatchedUpdateModBlocks {
 	public static final RegistryObject<Block> BREAKABLE_POT = REGISTRY.register("breakable_pot", () -> new BreakablePotBlock());
 	public static final RegistryObject<Block> SLIME_PLANT = REGISTRY.register("slime_plant", () -> new SlimePlantBlock());
 	public static final RegistryObject<Block> SLIMEMIDPLANT = REGISTRY.register("slimemidplant", () -> new SlimemidplantBlock());
+	public static final RegistryObject<Block> ANCIENT_PLACE_PORTAL = REGISTRY.register("ancient_place_portal", () -> new AncientPlacePortalBlock());
 }

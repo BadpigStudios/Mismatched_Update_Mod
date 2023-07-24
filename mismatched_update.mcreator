@@ -502,6 +502,47 @@
         ]
       },
       "path": "~/Flores"
+    },
+    {
+      "name": "Slimeplantspot",
+      "type": "structure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slimeplantspot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mismatched_update/forge/biome_modifier/slimeplantspot_biome_modifier.json",
+          "src/main/resources/data/mismatched_update/worldgen/placed_feature/slimeplantspot.json",
+          "src/main/java/net/mcreator/mismatchedupdate/world/features/SlimeplantspotFeature.java",
+          "src/main/resources/data/mismatched_update/worldgen/configured_feature/slimeplantspot.json"
+        ]
+      },
+      "path": "~/estructura"
+    },
+    {
+      "name": "AncientPlace",
+      "type": "dimension",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_place",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mismatched_update/blockstates/ancient_place_portal.json",
+          "src/main/java/net/mcreator/mismatchedupdate/world/dimension/AncientPlaceDimension.java",
+          "src/main/resources/data/mismatched_update/dimension_type/ancient_place.json",
+          "src/main/java/net/mcreator/mismatchedupdate/item/AncientPlaceItem.java",
+          "src/main/java/net/mcreator/mismatchedupdate/world/teleporter/AncientPlacePortalShape.java",
+          "src/main/resources/assets/mismatched_update/models/block/ancient_place_portal_ew.json",
+          "src/main/resources/assets/mismatched_update/models/block/ancient_place_portal_ns.json",
+          "src/main/resources/data/mismatched_update/dimension/ancient_place.json",
+          "src/main/java/net/mcreator/mismatchedupdate/block/AncientPlacePortalBlock.java",
+          "src/main/resources/assets/mismatched_update/models/item/ancient_place.json",
+          "src/main/java/net/mcreator/mismatchedupdate/world/teleporter/AncientPlaceTeleporter.java"
+        ]
+      },
+      "path": "~/dimension"
     }
   ],
   "variable_elements": [],
@@ -509,16 +550,20 @@
   "language_map": {
     "en_us": {
       "block.mismatched_update.life_flower": "Life Flower",
+      "item.mismatched_update.ancient_place": "Ancient Place Portal Igniter",
       "item.mismatched_update.ebip": "EBIP",
       "block.mismatched_update.explosive_berry_mid": "Explosive Berry Mid",
       "block.mismatched_update.breakable_pot": "Breakable Pot",
+      "block.mismatched_update.slime_plant": "Slime Plant",
       "block.mismatched_update.lifeflowerlittle": "Life Flower",
       "item_group.mismatched_update.barra_de_desarrollo": "Barra De Desarrollo",
+      "block.mismatched_update.slimemidplant": "Slimemidplant",
       "item.mismatched_update.explosive_berry_projectil": "Explosive Berry Projectil",
       "block.mismatched_update.explosive_berry": "Explosive Berry"
     },
     "es_mx": {
       "block.mismatched_update.life_flower": "Flor de vida",
+      "item.mismatched_update.ancient_place": "Ancient Place Portal Igniter",
       "item.mismatched_update.ebip": "",
       "block.mismatched_update.explosive_berry_mid": "Arbusto explosivo pequeño",
       "block.mismatched_update.breakable_pot": "Piedra rompible",
@@ -566,6 +611,14 @@
       },
       {
         "name": "ores",
+        "children": []
+      },
+      {
+        "name": "estructura",
+        "children": []
+      },
+      {
+        "name": "dimension",
         "children": []
       }
     ]
