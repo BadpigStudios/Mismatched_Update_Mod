@@ -14,7 +14,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.mismatchedupdate.item.ExplosiveBerryProjectilItem;
 import net.mcreator.mismatchedupdate.item.EBIPItem;
-import net.mcreator.mismatchedupdate.item.AncientPlaceItem;
 import net.mcreator.mismatchedupdate.MismatchedUpdateMod;
 
 public class MismatchedUpdateModItems {
@@ -28,7 +27,6 @@ public class MismatchedUpdateModItems {
 	public static final RegistryObject<Item> BREAKABLE_POT = block(MismatchedUpdateModBlocks.BREAKABLE_POT);
 	public static final RegistryObject<Item> SLIME_PLANT = block(MismatchedUpdateModBlocks.SLIME_PLANT);
 	public static final RegistryObject<Item> SLIMEMIDPLANT = block(MismatchedUpdateModBlocks.SLIMEMIDPLANT);
-	public static final RegistryObject<Item> ANCIENT_PLACE = REGISTRY.register("ancient_place", () -> new AncientPlaceItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

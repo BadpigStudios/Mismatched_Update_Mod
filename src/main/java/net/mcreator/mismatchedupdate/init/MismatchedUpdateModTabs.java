@@ -29,7 +29,6 @@ public class MismatchedUpdateModTabs {
 		}
 
 		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(MismatchedUpdateModItems.ANCIENT_PLACE.get());
 		}
 	}
 

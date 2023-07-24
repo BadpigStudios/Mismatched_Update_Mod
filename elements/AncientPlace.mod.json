@@ -31,12 +31,12 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "enableIgniter": true,
+    "enableIgniter": false,
     "igniterName": "Ancient Place Portal Igniter",
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "explosive_berry_projectil",
+    "texture": "",
     "portalTexture": "ancient_place_portal",
     "enablePortal": true
   }
